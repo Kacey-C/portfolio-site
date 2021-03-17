@@ -1,0 +1,156 @@
+/*
+ Theme Name:  Divi Child Theme
+ Theme URI:    https://kaceycreative.com
+ Description:  Child Theme for Divi
+ Author:       Kacey Willis
+ Author URI:   https://kaceycreative.com
+ Template:     Divi
+ Version:      1.0.0
+*/
+
+/*****Add any custom CSS below this line*****/
+
+/* Main Styles */
+html {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+ }
+ b,
+ strong {
+    font-weight: bold;
+    font-weight: 700;
+ }
+dfn,
+cite,
+em,
+i {
+   font-style: italic;
+}
+p {
+   color: #1B1611;
+   font: 1rem 'Open Sans', Arial, sans-serif;
+   margin: 1rem auto;
+   line-height: 1.4em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font: 400 1em/1.75 'Raleway', 'Open Sans', Arial, sans-serif;
+}
+h1 {
+    font-size: 2.67rem;
+    line-height: 1.15em;
+ }
+ h2 {
+    font-size: 2rem;
+    line-height: 1.25em;
+ }
+ h3 {
+    font-size: 1.56rem;
+    line-height: 1.25em;
+ }
+ h4 {
+    font-size: 1em;
+    line-height: 1.375em;
+    font-weight: 500;
+ }
+  h5 {
+    font-size: 1em;
+    line-height: 1.375em;
+    text-transform: uppercase;
+ }
+
+.et_pb_button{
+    font-family: 'Raleway', 'Open Sans', sans-serif;
+}
+/* end MAIN */
+
+/* Body Styles */
+
+   /*place button modules next to each other in the same column*/
+.pa-inline-buttons .et_pb_button_module_wrapper {
+    display: inline-block;
+}
+   /* Bottom Align Buttons in Column */
+.bottom-align-buttons .et_pb_column 
+   { 
+       display:flex; 
+       flex-direction:column; 
+       justify-content:space-between;
+   }
+   
+
+/* end BODY */
+
+/* Header and Menu */
+
+.nav-links {
+   display: flex;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+
+.nav-links-mobile {
+   display: flex;
+   flex-wrap: nowrap;
+}
+
+.nav-links h3 {
+   font-size: 24px;
+}
+
+.nav-links p {
+   font-size: 14px;
+   font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+   text-align: center;
+}
+
+/* end HEADER AND MENU */
+
+/* Homepage */
+
+.home-head {
+    display: flex;
+    align-items: flex-end;
+}
+
+.work-category-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-category {
+    background-color: #dce0ea;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.work-category p {
+   font: .9rem 'Raleway','Open Sans', Arial, sans-serif;
+}
+
+.work-description p {
+   color: #6b6b6b;
+}
+
+   /* Image Zoom on Hover */
+.image-zoom img {
+   transition:all 0.5s; 
+   -moz-transition:all 0.5s; 
+   -webkit-transition:all 0.5s; 
+ }
+   
+ .image-zoom img:hover{
+   transform:scale(1.05);
+   -moz-transform: scale(1.05);
+   -webkit-transform:scale(1.05);
+ }
+
+
+/* end HOMEPAGE */

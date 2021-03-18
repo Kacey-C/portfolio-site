@@ -56,7 +56,7 @@ h1 {
     line-height: 1.25em;
  }
  h4 {
-    font-size: 1em;
+    font-size: 1.25em;
     line-height: 1.375em;
     font-weight: 500;
  }
@@ -158,12 +158,45 @@ h1 {
     flex-wrap: nowrap;
  }
 
+ .social-connect {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
 
 /* end HOMEPAGE */
 
 /* Media Queries - Tablet */
 
 /* Homepage */
+@media only screen and (max-width: 767px) {
+   h1{
+      font-size: 2rem;
+      line-height: 1.15em;
+   }
+   h2 {
+      font-size: 1.45rem;
+      line-height: 1.25em;
+   }
+   h3 {
+      font-size: 1.25rem;
+      line-height: 1.375em;
+   }
+   h4 {
+      font-size: 1rem;
+      line-height: 1.4em;
+      font-weight: 500;
+   }
+
+   .home-head-phone {
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap!important;
+   }
+}
+
 @media only screen and (max-width: 600px) {
    .services-list{
       display: flex;
@@ -175,10 +208,3 @@ h1 {
 
 /* Homepage */
 
-@media only screen and (max-width: 480px) {
-   .home-head-phone {
-      display: flex;
-      align-items: center;
-      flex-wrap: nowrap;
-   }
-}

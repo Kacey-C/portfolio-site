@@ -117,7 +117,7 @@ h1 {
 
 .home-head {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .work-category-section {
@@ -151,6 +151,34 @@ h1 {
    -moz-transform: scale(1.05);
    -webkit-transform:scale(1.05);
  }
+   /* end image zoom */
+
+ .services-list {
+    display: flex;
+    flex-wrap: nowrap;
+ }
 
 
 /* end HOMEPAGE */
+
+/* Media Queries - Tablet */
+
+/* Homepage */
+@media only screen and (max-width: 600px) {
+   .services-list{
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
+
+/* Media Queries - Phone */
+
+/* Homepage */
+
+@media only screen and (max-width: 480px) {
+   .home-head-phone {
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap;
+   }
+}

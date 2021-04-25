@@ -111,6 +111,12 @@ h1 {
    text-align: center;
 }
 
+.nav-zoom p {
+   transition:all 0.5s; 
+   -moz-transition:all 0.5s; 
+   -webkit-transition:all 0.5s; 
+ }
+
 .nav-zoom p:hover {
    transform:scale(1.25);
    -moz-transform: scale(1.25);
@@ -119,11 +125,23 @@ h1 {
 
 /* end HEADER AND MENU */
 
+/* Footer */
+.footer-text-mobile {
+   text-align: center;
+}
+
+/* end FOOTER */
+
 /* Homepage */
 
 .home-head {
     display: flex;
     align-items: center;
+}
+
+.highlight {
+   background-color: #ffffff;
+   background-image: linear-gradient(#e5e7ee 0%,#e5e7ee 60%,#ffffff 60%,#ffffff 100%);
 }
 
 .work-category-section {
@@ -159,10 +177,25 @@ h1 {
  }
    /* end image zoom */
 
- .services-list {
-    display: flex;
-    flex-wrap: nowrap;
- }
+   .fontawesome-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3em;
+      color: #5b647d;
+  }
+  
+  .fontawesome-icon {
+     transition:all 0.5s; 
+     -moz-transition:all 0.5s; 
+     -webkit-transition:all 0.5s; 
+   } 
+     
+  .fontawesome-icon:hover{
+     transform:scale(1.75);
+     -moz-transform: scale(1.75);
+     -webkit-transform:scale(1.75);
+   }
 
  .social-connect {
     display: flex;
@@ -173,6 +206,31 @@ h1 {
 
 
 /* end HOMEPAGE */
+
+/* Case Studies */
+
+.case-study-nav {
+   display: flex;
+   align-items: center;
+}
+
+.case-study-head-section {
+   background-color: #ffffff;
+   background-image: linear-gradient(#e5e7ee 0%,#e5e7ee 60%,#ffffff 60%,#ffffff 100%);
+}
+
+.case-study-head,
+.case-study-description {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.case-study-head p {
+   text-align: center;
+}
+
+/* end CASE STUDIES */
 
 /* Media Queries - Tablet */
 

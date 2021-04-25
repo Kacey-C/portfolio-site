@@ -111,7 +111,8 @@ h1 {
    text-align: center;
 }
 
-.nav-zoom p {
+.nav-zoom p,
+.nav-zoom h3 {
    transition:all 0.5s; 
    -moz-transition:all 0.5s; 
    -webkit-transition:all 0.5s; 
@@ -121,6 +122,11 @@ h1 {
    transform:scale(1.25);
    -moz-transform: scale(1.25);
    -webkit-transform:scale(1.25);
+}
+.nav-zoom h3:hover {
+   transform:scale(1.15);
+   -moz-transform: scale(1.15);
+   -webkit-transform:scale(1.15);
 }
 
 /* end HEADER AND MENU */
